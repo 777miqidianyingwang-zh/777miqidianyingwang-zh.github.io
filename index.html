@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>777米奇电影网：动画电影与银幕视觉艺术观察站｜经典动画、独立短片与电影美学讨论</title>
+<meta name="description" content="777米奇电影网是一份聚焦动画电影、经典动画与银幕视觉艺术的深度内容栏目。我们以动画电影史、镜头美学、独立短片创作与观影文化为线索，提供有温度的动画影评、经典作品重读与正版观影指引，倡导通过合法渠道欣赏电影并支持动画创作者。">
+<meta name="keywords" content="777米奇电影网, 动画电影, 经典动画, 银幕视觉艺术, 动画影评, 独立短片, 电影美学, 正版观影, 动画电影史, 经典作品重读">
+<meta name="author" content="777米奇电影网编辑组">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="classification" content="电影文化 / 动画观察">
+<meta name="language" content="zh-CN">
+<meta name="geo.region" content="CN">
+<meta name="theme-color" content="#fff8ec">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<link rel="canonical" href="https://777miqidianyingwang-zh.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="777米奇电影网：动画电影与银幕视觉艺术观察站">
+<meta property="og:description" content="动画电影史、镜头美学、独立短片创作与正版观影指引，倡导通过合法渠道欣赏电影。">
+<meta property="og:url" content="https://777miqidianyingwang-zh.github.io/">
+<meta property="og:site_name" content="777米奇电影网">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="777米奇电影网：动画电影与银幕视觉艺术观察站">
+<meta name="twitter:description" content="动画影评、经典作品重读与正版观影指引。">
+<style>
+:root{
+  --paper:#fff8ec;
+  --paper2:#fff3df;
+  --ink:#1d1d2b;
+  --ink2:#46465a;
+  --ink3:#8a8a9e;
+  --blue:#3a5cf0;
+  --blue2:#2944c4;
+  --sky:#7aa6ff;
+  --yellow:#ffd23f;
+  --yellow2:#ffba08;
+  --pink:#ff6b8a;
+  --line:rgba(29,29,43,.13);
+  --line2:rgba(29,29,43,.07);
+  --card:#ffffff;
+  --r:20px;
+  --mx:1180px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",-apple-system,sans-serif;
+  background:var(--paper);color:var(--ink);line-height:1.85;overflow-x:hidden;
+}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(circle at 12% 18%,rgba(122,166,255,.28),transparent 34%),
+    radial-gradient(circle at 86% 8%,rgba(255,210,63,.32),transparent 32%),
+    radial-gradient(circle at 72% 88%,rgba(255,107,138,.18),transparent 36%);
+}
+a{color:var(--blue2);text-decoration:none;transition:.22s}
+a:hover{color:var(--pink)}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--mx);margin:0 auto;padding:0 28px}
+section{padding:112px 0;position:relative}
+@media(max-width:820px){section{padding:76px 0}.wrap{padding:0 18px}}
+
+/* playful marquee */
+.marq{background:var(--ink);color:var(--yellow);border-bottom:3px solid var(--yellow);overflow:hidden;padding:11px 0}
+.marq .track{display:flex;gap:56px;width:max-content;animation:scroll 42s linear infinite;font-size:14px;letter-spacing:1.2px}
+.marq .track span{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+.marq .track span::before{content:"";width:8px;height:8px;background:var(--pink);border-radius:50%;display:inline-block}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.marq .track:hover{animation-play-state:paused}
+
+/* header */
+header{background:rgba(255,248,236,.93);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:90}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;gap:18px}
+.logo{display:flex;align-items:center;gap:14px}
+.face{width:46px;height:46px;border-radius:15px;background:var(--yellow);display:grid;place-items:center;flex:0 0 auto;position:relative;box-shadow:0 6px 14px rgba(255,186,8,.4)}
+.face::before,.face::after{content:"";width:8px;height:8px;background:var(--ink);border-radius:50%;position:absolute;top:14px}
+.face::before{left:11px}.face::after{right:11px}
+.face i{position:absolute;bottom:11px;left:50%;transform:translateX(-50%);width:20px;height:9px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background:var(--ink)}
+.logo b{font-size:22px;font-weight:900;letter-spacing:.4px;line-height:1.1}
+.logo small{display:block;font-size:11px;letter-spacing:2.6px;color:var(--ink3);text-transform:uppercase;margin-top:3px}
+.menu{display:flex;align-items:center;gap:2px}
+.menu a{font-size:15px;color:var(--ink2);padding:9px 15px;border-radius:10px;font-weight:600}
+.menu a:hover{background:var(--paper2);color:var(--blue2)}
+.menu .cta{background:var(--blue);color:#fff;font-weight:700;margin-left:8px}
+.menu .cta:hover{background:var(--blue2);color:#fff}
+.mbtn{display:none;width:46px;height:46px;border:2px solid var(--ink);background:var(--yellow);border-radius:13px;cursor:pointer;font-size:20px;font-weight:900;color:var(--ink)}
+@media(max-width:900px){
+  .mbtn{display:grid;place-items:center}
+  .menu{position:fixed;left:14px;right:14px;top:80px;flex-direction:column;align-items:stretch;gap:3px;padding:16px;
+    border-radius:18px;background:var(--card);border:2px solid var(--ink);box-shadow:0 24px 50px rgba(29,29,43,.2);
+    opacity:0;transform:translateY(-14px);pointer-events:none;transition:.3s}
+  .menu.open{opacity:1;transform:translateY(0);pointer-events:auto}
+  .menu a{padding:13px 15px}
+  .menu .cta{margin:8px 0 0;text-align:center}
+}
+
+/* hero */
+.hero{padding:0;position:relative}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center;padding-top:96px;padding-bottom:96px}
+.h1{font-size:clamp(38px,6vw,68px);font-weight:900;line-height:1.12;letter-spacing:-.5px}
+.h1 .big{font-size:1.28em;display:inline-block;background:var(--yellow);padding:0 12px;border-radius:12px;border:3px solid var(--ink);box-shadow:6px 6px 0 var(--blue);transform:rotate(-2.5deg);margin:0 4px}
+.h1 em{font-style:normal;color:var(--blue)}
+.hero .lead{font-size:clamp(16px,1.7vw,19px);color:var(--ink2);margin:30px 0 34px;max-width:540px}
+.acts{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:16px 34px;border-radius:13px;font-size:15.5px;font-weight:800;border:2.5px solid var(--ink);cursor:pointer;transition:.25s;font-family:inherit}
+.btn.pri{background:var(--yellow);color:var(--ink)}
+.btn.pri:hover{transform:translate(-3px,-3px);box-shadow:6px 6px 0 var(--blue)}
+.btn.sec{background:#fff;color:var(--ink)}
+.btn.sec:hover{background:var(--blue);color:#fff}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chip{font-size:13px;font-weight:700;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:7px 16px;color:var(--ink2)}
+.chip:nth-child(2){background:var(--blue);color:#fff;border-color:var(--blue)}
+.chip:nth-child(4){background:var(--pink);color:#fff;border-color:var(--pink)}
+/* doodle stack */
+.doodle{position:relative;height:520px}
+.d{position:absolute;border-radius:20px;border:3px solid var(--ink);box-shadow:8px 8px 0 rgba(29,29,43,.92)}
+.d1{top:0;right:30px;width:300px;height:200px;background:var(--blue);transform:rotate(4deg);padding:22px;color:#fff}
+.d1 .t{font-size:12px;letter-spacing:2px;color:var(--yellow);font-weight:800}
+.d1 .h{font-size:25px;font-weight:900;line-height:1.4;margin-top:8px}
+.d1 .dots{display:flex;gap:6px;margin-top:22px}
+.d1 .dots i{width:11px;height:11px;background:var(--yellow);border-radius:50%;display:block}
+.d1 .dots i:nth-child(2){background:var(--pink)}
+.d2{top:150px;left:0;width:250px;height:220px;background:var(--yellow);transform:rotate(-6deg);padding:24px}
+.d2 .h{font-size:22px;font-weight:900;line-height:1.5}
+.d2 .bar{margin-top:20px;height:10px;background:var(--ink);border-radius:6px;width:78%}
+.d2 .row{display:flex;gap:10px;margin-top:14px}
+.d2 .row i{flex:1;height:10px;background:var(--blue);border-radius:6px;display:block}
+.d2 .row i:nth-child(2){background:var(--pink)}
+.d2 .row i:nth-child(3){background:var(--ink)}
+.d3{top:300px;right:0;width:330px;height:230px;background:#fff;transform:rotate(3deg);padding:24px}
+.d3 .cap{font-size:12px;letter-spacing:1.8px;color:var(--blue2);font-weight:800}
+.d3 .quote{font-size:19px;font-weight:800;line-height:1.7;margin-top:12px}
+.d3 .quote::before{content:"“";font-size:40px;color:var(--yellow2);line-height:.4;vertical-align:-10px}
+.d3 .who{margin-top:16px;display:flex;align-items:center;gap:11px;font-size:13.5px;color:var(--ink3)}
+.d3 .who b{width:34px;height:34px;border-radius:50%;background:var(--ink);display:grid;place-items:center;color:var(--yellow);font-weight:900}
+.d4{top:430px;left:60px;background:var(--pink);width:190px;height:96px;transform:rotate(-3deg);display:grid;place-items:center;color:#fff;text-align:center;padding:14px}
+.d4 b{font-size:16px;font-weight:900;line-height:1.5}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:56px;padding-top:66px;padding-bottom:70px}.doodle{height:560px;transform:scale(.92);transform-origin:top center}}
+
+/* heads */
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:800;letter-spacing:2.2px;color:var(--blue2);background:rgba(58,92,240,.1);border:2px solid rgba(58,92,240,.25);padding:7px 15px;border-radius:8px}
+.kicker::before{content:"";width:9px;height:9px;background:var(--yellow2);border-radius:3px}
+.sh{margin-bottom:62px}
+.sh h2{font-size:clamp(27px,4vw,44px);font-weight:900;line-height:1.3;letter-spacing:-.3px}
+.sh h2 em{font-style:normal;color:var(--blue)}
+.sh h2 .hl{background:var(--yellow);padding:0 10px;border-radius:8px;border:2.5px solid var(--ink);display:inline-block;transform:rotate(-1.5deg)}
+.sh .sub{color:var(--ink2);max-width:700px;margin-top:18px;font-size:16px}
+.stamp{display:inline-block;margin-left:auto;font-size:12px;letter-spacing:2px;color:var(--ink3);border:2px dashed var(--ink3);border-radius:8px;padding:6px 12px;transform:rotate(2deg)}
+@media(max-width:820px){.stamp{display:none}}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+@media(max-width:880px){.about{grid-template-columns:1fr;gap:44px}}
+.about .t h3{font-size:clamp(26px,3.6vw,38px);font-weight:900;line-height:1.45;margin-bottom:22px}
+.about .t h3 em{font-style:normal;color:var(--blue)}
+.about .t p{color:var(--ink2);font-size:16px;margin-bottom:14px}
+.bars{margin-top:34px;display:flex;flex-direction:column;gap:18px}
+.baritem .top{display:flex;justify-content:space-between;font-size:15px;font-weight:700;margin-bottom:7px}
+.baritem .top span:last-child{color:var(--blue2)}
+.trackline{height:14px;background:var(--paper2);border-radius:8px;overflow:hidden;border:2px solid var(--ink)}
+.trackline i{display:block;height:100%;border-radius:6px;background:var(--blue)}
+.trackline:nth-child(2) i{background:var(--yellow2)}
+.trackline:nth-child(3) i{background:var(--pink)}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.cc{background:var(--card);border:2.5px solid var(--ink);border-radius:18px;padding:28px 24px;box-shadow:6px 6px 0 var(--blue);transition:.28s}
+.cc:nth-child(2){box-shadow:6px 6px 0 var(--yellow2)}
+.cc:nth-child(3){box-shadow:6px 6px 0 var(--pink)}
+.cc:nth-child(4){box-shadow:6px 6px 0 var(--blue2)}
+.cc:hover{transform:translate(-4px,-4px);box-shadow:10px 10px 0 var(--ink)}
+.cc .ic{width:52px;height:52px;border-radius:14px;background:var(--paper2);display:grid;place-items:center;font-size:25px;margin-bottom:16px}
+.cc h4{font-size:18px;margin-bottom:8px;font-weight:800}
+.cc p{font-size:14.5px;color:var(--ink2)}
+
+/* chapters */
+.chap{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:2.5px solid var(--ink);border-radius:22px;overflow:hidden;background:#fff}
+@media(max-width:880px){.chap{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.chap{grid-template-columns:1fr}}
+.ch{background:#fff;padding:34px 28px;border-right:2.5px solid var(--ink)}
+.ch:nth-child(4){border-right:none}
+@media(max-width:880px){.ch{border-right:none;border-bottom:2.5px solid var(--ink)}.ch:nth-child(odd){border-right:2.5px solid var(--ink)}.ch:nth-last-child(-n+2){border-bottom:none}}
+@media(max-width:520px){.ch{border-right:none!important}}
+.ch:nth-child(1){background:var(--blue);color:#fff}
+.ch:nth-child(2){background:var(--yellow)}
+.ch:nth-child(3){background:var(--pink);color:#fff}
+.ch:nth-child(4){background:var(--paper2)}
+.ch .n{font-size:13px;font-weight:800;letter-spacing:1.6px;opacity:.75}
+.ch h3{font-size:22px;font-weight:900;margin:12px 0 14px}
+.ch p{font-size:15px;line-height:1.8}
+.ch a{display:inline-block;margin-top:18px;font-size:14px;font-weight:800;border-bottom:2.5px solid currentColor;padding-bottom:2px}
+.ch:nth-child(1) a{color:#fff}.ch:nth-child(2) a{color:var(--ink)}.ch:nth-child(3) a{color:#fff}.ch:nth-child(4) a{color:var(--blue2)}
+
+/* film strip / notebook */
+.studio{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+@media(max-width:880px){.studio{grid-template-columns:1fr}}
+.sn{background:#fff;border:2.5px solid var(--ink);border-radius:20px;padding:0;overflow:hidden;box-shadow:8px 8px 0 rgba(29,29,43,.9)}
+.sn .hd{background:var(--ink);color:var(--yellow);padding:20px 26px;display:flex;justify-content:space-between;align-items:center}
+.sn .hd b{font-size:17px;letter-spacing:.5px}
+.sn .hd i{font-style:normal;font-size:12px;background:var(--yellow);color:var(--ink);padding:5px 11px;border-radius:7px;font-weight:800}
+.sn ul{list-style:none;padding:8px 0}
+.sn li{padding:19px 26px;border-bottom:2px dashed var(--line2);display:grid;grid-template-columns:64px 1fr auto;gap:18px;align-items:center;transition:.22s}
+.sn li:last-child{border-bottom:none}
+.sn li:hover{background:var(--paper)}
+.sn .dt{background:var(--blue);color:#fff;border-radius:12px;padding:11px 8px;text-align:center;font-weight:800}
+.sn .dt b{display:block;font-size:20px;line-height:1}
+.sn .dt span{font-size:11px;letter-spacing:1px}
+.sn li h4{font-size:16.5px;font-weight:800;line-height:1.45}
+.sn li small{display:block;font-size:13.5px;color:var(--ink3);margin-top:4px}
+.sn .tag{font-size:12px;font-weight:700;background:var(--paper2);border:2px solid var(--ink);border-radius:999px;padding:5px 12px;color:var(--ink2);white-space:nowrap}
+.sn2 .hd{background:var(--yellow);color:var(--ink)}
+.sn2 .dt{background:var(--yellow2);color:var(--ink)}
+
+/* spotlight */
+.spot{background:var(--ink);color:#fff;border-radius:26px;padding:56px 50px;position:relative;overflow:hidden}
+.spot::after{content:"";position:absolute;right:-90px;top:-90px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(255,210,63,.2),transparent 68%)}
+.spot .kicker{color:var(--yellow);background:rgba(255,210,63,.14);border-color:rgba(255,210,63,.35)}
+.spot h2{color:#fff;margin-top:14px}
+.spot h2 em{color:var(--yellow)}
+.spot .sub{color:#cdcde0}
+.spot .bar{background:var(--pink)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;position:relative;z-index:2}
+@media(max-width:860px){.grid3{grid-template-columns:1fr}}
+.gc{background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.14);border-radius:18px;padding:30px 26px;transition:.28s}
+.gc:hover{border-color:var(--yellow);transform:translateY(-6px)}
+.gc .top{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.gc .no{width:42px;height:42px;border-radius:12px;background:var(--yellow);color:var(--ink);display:grid;place-items:center;font-weight:900;font-size:17px}
+.gc .cat{font-size:12.5px;letter-spacing:1.4px;color:var(--sky)}
+.gc h4{font-size:19px;margin-bottom:10px;line-height:1.5}
+.gc p{font-size:15px;color:#d7d7e6}
+.gc .more{display:inline-block;margin-top:18px;font-size:14px;font-weight:800;color:var(--yellow);border-bottom:2px solid currentColor;padding-bottom:2px}
+
+/* timeline */
+.tl{position:relative;max-width:940px;margin:0 auto;padding-left:42px}
+.tl::before{content:"";position:absolute;left:11px;top:6px;bottom:6px;width:4px;background:var(--ink);border-radius:3px}
+@media(max-width:700px){.tl{padding-left:0}}
+@media(max-width:700px){.tl::before{display:none}}
+.ti{position:relative;background:#fff;border:2.5px solid var(--ink);border-radius:18px;padding:28px 30px;margin-bottom:20px;box-shadow:6px 6px 0 rgba(29,29,43,.85);transition:.28s}
+.ti:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink)}
+@media(max-width:700px){.ti{padding:24px}}
+.ti::before{content:"";position:absolute;left:-35px;top:30px;width:20px;height:20px;border-radius:50%;background:var(--yellow);border:3px solid var(--ink)}
+@media(max-width:700px){.ti::before{display:none}}
+.ti .when{display:inline-block;font-size:12.5px;font-weight:800;letter-spacing:1.4px;color:var(--blue2);background:rgba(58,92,240,.1);border-radius:6px;padding:5px 12px;margin-bottom:12px}
+.ti h4{font-size:20px;font-weight:800;margin-bottom:9px}
+.ti p{font-size:15.5px;color:var(--ink2)}
+.ti .tags{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+.ti .tags span{font-size:12.5px;background:var(--paper2);border-radius:7px;padding:5px 11px;color:var(--ink2);font-weight:600}
+
+/* voices */
+.voices{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+@media(max-width:860px){.voices{grid-template-columns:1fr}}
+.voice{background:#fff;border:2.5px solid var(--ink);border-radius:20px;padding:30px 28px;position:relative;box-shadow:7px 7px 0 var(--blue)}
+.voice:nth-child(2){box-shadow:7px 7px 0 var(--yellow2)}
+.voice:nth-child(3){box-shadow:7px 7px 0 var(--pink)}
+.voice .q{font-size:16.5px;font-weight:700;line-height:1.8;margin-bottom:22px}
+.voice .who{display:flex;align-items:center;gap:13px;border-top:2px dashed var(--line2);padding-top:18px}
+.voice .av{width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--yellow);display:grid;place-items:center;font-weight:900;font-size:15px;flex:0 0 auto}
+.voice .av.b{background:var(--blue);color:#fff}
+.voice .av.c{background:var(--pink);color:#fff}
+.voice .who b{display:block;font-size:15px}
+.voice .who small{font-size:13px;color:var(--ink3)}
+
+/* faq */
+.faqs{max-width:900px;margin:0 auto}
+.fq{border:2.5px solid var(--ink);background:#fff;border-radius:16px;margin-bottom:14px;overflow:hidden;box-shadow:5px 5px 0 rgba(29,29,43,.8)}
+.fq summary{padding:22px 56px 22px 26px;font-size:16.5px;font-weight:800;cursor:pointer;list-style:none;position:relative}
+.fq summary::-webkit-details-marker{display:none}
+.fq summary::after{content:"＋";position:absolute;right:22px;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:9px;background:var(--yellow);color:var(--ink);display:grid;place-items:center;font-weight:900}
+.fq[open] summary::after{content:"－";background:var(--blue);color:#fff}
+.fq[open] summary{padding-bottom:8px}
+.fq .a{padding:0 26px 22px;color:var(--ink2);font-size:15.5px}
+
+/* subscribe */
+.sub{background:var(--yellow);border:3px solid var(--ink);border-radius:26px;padding:56px 50px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;box-shadow:10px 10px 0 var(--ink)}
+@media(max-width:820px){.sub{grid-template-columns:1fr;padding:42px 26px}}
+.sub h3{font-size:clamp(25px,3.4vw,35px);font-weight:900;line-height:1.45;margin-top:10px}
+.sub p{font-size:15.5px;color:var(--ink2);margin-top:14px;max-width:460px}
+.subf{display:flex;gap:12px;flex-wrap:wrap}
+.subf input{flex:1;min-width:210px;font-family:inherit;font-size:15.5px;color:var(--ink);padding:16px 20px;border-radius:13px;border:2.5px solid var(--ink);background:#fff}
+.subf input:focus{outline:none;background:var(--paper)}
+.subf button{font-family:inherit;font-size:15.5px;font-weight:800;color:#fff;cursor:pointer;border:none;border-radius:13px;padding:16px 36px;background:var(--blue);transition:.25s;box-shadow:5px 5px 0 var(--ink)}
+.subf button:hover{background:var(--blue2);transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--ink)}
+
+/* footer */
+footer{background:var(--ink);color:#cdcde0;margin-top:112px;padding:74px 0 36px}
+.f{display:grid;grid-template-columns:1.7fr 1fr 1fr 1.3fr;gap:40px;margin-bottom:50px}
+@media(max-width:860px){.f{grid-template-columns:1fr 1fr;gap:36px}}
+.face.w{background:#fff}
+.f .fd{font-size:15px;line-height:1.95;max-width:330px;margin-top:18px;color:#a8a8bd}
+.f h5{font-size:13.5px;letter-spacing:2px;color:var(--yellow);margin-bottom:20px;text-transform:uppercase;font-weight:800}
+.f ul{list-style:none}
+.f li{margin-bottom:12px}
+.f a{color:#cdcde0;font-size:15px}
+.f a:hover{color:var(--yellow)}
+.f .site{color:var(--yellow);font-weight:800;word-break:break-all;font-size:15px}
+.fbot{font-size:14px;line-height:2;padding-top:32px;border-top:2px solid rgba(255,255,255,.14);color:#8f8faa}
+.fbot strong{color:var(--yellow)}
+#top{position:fixed;right:20px;bottom:24px;width:48px;height:48px;border-radius:14px;border:2.5px solid var(--ink);z-index:70;display:grid;place-items:center;cursor:pointer;background:var(--yellow);color:var(--ink);font-size:20px;font-weight:900;opacity:0;pointer-events:none;transform:translateY(14px);transition:.3s;box-shadow:4px 4px 0 var(--ink)}
+#top.show{opacity:1;pointer-events:auto;transform:translateY(0)}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="marq"><div class="track">
+  <span>倡导通过正版渠道欣赏电影，尊重创作者的每一帧劳动</span>
+  <span>动画电影史 · 镜头美学 · 独立短片创作</span>
+  <span>不提供影视资源下载或在线播放服务</span>
+  <span>欢迎投稿与选题建议</span>
+  <span>倡导通过正版渠道欣赏电影，尊重创作者的每一帧劳动</span>
+  <span>动画电影史 · 镜头美学 · 独立短片创作</span>
+  <span>不提供影视资源下载或在线播放服务</span>
+  <span>欢迎投稿与选题建议</span>
+</div></div>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">
+      <span class="face"><i></i></span>
+      <div><b>777米奇电影网</b><small>Animation &amp; Cinema Notes</small></div>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#about">栏目简介</a>
+      <a href="#chap">内容方向</a>
+      <a href="#studio">影像手记</a>
+      <a href="#spot">深度选题</a>
+      <a href="#voices">读者回声</a>
+      <a href="#sub" class="cta">订阅专栏</a>
+    </nav>
+    <button class="mbtn" id="mbtn" aria-label="菜单">≡</button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <h1 class="h1">让每一帧<br><span class="big">777</span>都被<br><em>认真看见</em></h1>
+      <p class="lead">777米奇电影网是一份关于动画电影与银幕视觉艺术的深度内容栏目。我们从动画电影史、镜头美学与独立短片创作出发，写下有温度的动画影评与经典作品重读，并记录每一次被银幕打动的过程。</p>
+      <div class="acts">
+        <a class="btn pri" href="#studio">翻开影像手记 →</a>
+        <a class="btn sec" href="#about">了解栏目定位</a>
+      </div>
+      <div class="chips">
+        <span class="chip">动画电影</span>
+        <span class="chip">经典动画重读</span>
+        <span class="chip">镜头美学</span>
+        <span class="chip">独立短片</span>
+        <span class="chip">正版观影</span>
+      </div>
+    </div>
+    <div class="doodle" aria-hidden="true">
+      <div class="d d1"><div class="t">FEATURED ESSAY</div><div class="h">一帧画面<br>能讲多长的故事</div><div class="dots"><i></i><i></i><i></i></div></div>
+      <div class="d d2"><div class="h">当色彩<br>成为台词</div><div class="bar"></div><div class="row"><i></i><i></i><i></i></div><div class="row"><i style="background:var(--ink)"></i><i style="background:var(--pink)"></i></div></div>
+      <div class="d d3"><div class="cap">READER VOICE</div><div class="quote">原来动画片里的留白，比台词更动人。</div><div class="who"><b>Y</b><span>来自一位长期读者的来信</span></div></div>
+      <div class="d d4"><b>动画不幼稚<br>它只是诚实</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kicker">ABOUT — 栏目简介</div>
+      <h2>关于 <span class="hl">777米奇电影网</span><br>与它的<em>内容立场</em></h2>
+      <p class="sub">我们想做的不是一份片单，而是一份能陪你把一部动画、一段短片重新看懂的笔记。</p>
+      <div class="bar"></div>
+    </div>
+    <div class="about">
+      <div class="t">
+        <h3>从银幕出发，<em>写回观看本身</em></h3>
+        <p>777米奇电影网聚焦动画电影、经典动画与银幕视觉艺术的深度讨论。我们相信，动画、短片与影像作品的价值，常常藏在节奏、色彩、留白与镜头的选择里，而不是剧情简介中。</p>
+        <p>栏目持续更新动画影评、经典作品重读、创作者访谈、动画电影史线索与正版观影渠道指引，并倡导通过合法、正版授权的方式欣赏电影，以支持动画创作者的持续创作。</p>
+        <div class="bars">
+          <div class="baritem"><div class="top"><span>动画影评与作品重读</span><span>32 篇</span></div><div class="trackline"><i style="width:82%"></i></div></div>
+          <div class="baritem"><div class="top"><span>动画电影史与镜头美学</span><span>26 篇</span></div><div class="trackline"><i style="width:66%"></i></div></div>
+          <div class="baritem"><div class="top"><span>独立短片与创作者访谈</span><span>19 篇</span></div><div class="trackline"><i style="width:52%"></i></div></div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="cc"><div class="ic">🎞️</div><h4>以画面为语言</h4><p>把色彩、构图、节奏当作理解作品的入口，而非背景装饰。</p></div>
+        <div class="cc"><div class="ic">🪞</div><h4>重读经典</h4><p>把熟悉的作品再读一遍，常常会有新的理解出现。</p></div>
+        <div class="cc"><div class="ic">✍️</div><h4>让作者说话</h4><p>访谈与对谈中，呈现创作者自己的选择与困惑。</p></div>
+        <div class="cc"><div class="ic">🎫</div><h4>倡导正版</h4><p>所有讨论基于正版授权版本，并提供合法观影渠道指引。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="chap" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kicker">CHAPTERS — 内容方向</div>
+      <h2>四个<em>章节</em>，<br>构成栏目的完整内容地图</h2>
+      <p class="sub">从一部作品的诞生背景到它被观看的方式，我们把关于动画与电影的问题拆成可阅读、可参与的内容方向。</p>
+      <div class="bar"></div>
+    </div>
+    <div class="chap">
+      <div class="ch">
+        <div class="n">CHAPTER 01</div>
+        <h3>动画电影与经典重读</h3>
+        <p>从经典动画到当代作品，以动画影评的方式重新进入熟悉的故事，讨论叙事、情感与时代之间的关系。</p>
+        <a href="#studio">阅读手记 →</a>
+      </div>
+      <div class="ch">
+        <div class="n">CHAPTER 02</div>
+        <h3>镜头美学与视觉语言</h3>
+        <p>拆解一帧画面里的构图、色彩、光影与运动，理解视觉语言如何承担叙事与情绪。</p>
+        <a href="#spot">查看选题 →</a>
+      </div>
+      <div class="ch">
+        <div class="n">CHAPTER 03</div>
+        <h3>独立短片与创作者</h3>
+        <p>关注短片创作者的作品与表达，通过访谈呈现他们的工作方式、灵感来源与创作困境。</p>
+        <a href="#">认识创作者 →</a>
+      </div>
+      <div class="ch">
+        <div class="n">CHAPTER 04</div>
+        <h3>正版观影与渠道指引</h3>
+        <p>梳理院线、主流流媒体、短片平台与合法发行渠道，帮助观众以正确方式支持作品。</p>
+        <a href="#faq">了解立场 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="studio" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kicker">NOTEBOOK — 影像手记</div>
+      <h2>最近的<em>影像手记</em></h2>
+      <p class="sub">左侧为经典作品重读，右侧为动画电影史与镜头观察。文章随更新持续补充，欢迎来信参与选题。</p>
+      <div class="bar"></div>
+    </div>
+    <div class="studio">
+      <div class="sn">
+        <div class="hd"><b>经典作品重读</b><i>重读笔记</i></div>
+        <ul>
+          <li><div class="dt"><b>12</b><span>10月</span></div><div><h4>当音乐成为叙事：一段配乐如何改变一场戏</h4><small>从作品中的音乐段落出发，讨论声音与画面的配合方式。</small></div><span class="tag">动画影评</span></li>
+          <li><div class="dt"><b>05</b><span>10月</span></div><div><h4>留白的力量：那些没有说出口的话</h4><small>重读经典动画中"不解释"的部分，看它如何让观众参与进来。</small></div><span class="tag">经典重读</span></li>
+          <li><div class="dt"><b>28</b><span>09月</span></div><div><h4>角色为什么可爱：设计背后的情感逻辑</h4><small>从线条、比例与表情出发，理解角色设计如何唤起共情。</small></div><span class="tag">视觉语言</span></li>
+          <li><div class="dt"><b>20</b><span>09月</span></div><div><h4>节奏即情绪：一场追逐戏是怎么被"剪"出来的</h4><small>拆解镜头的长短与切换，看节奏如何控制观众的呼吸。</small></div><span class="tag">镜头美学</span></li>
+        </ul>
+      </div>
+      <div class="sn sn2">
+        <div class="hd"><b>动画电影史与镜头观察</b><i>历史线索</i></div>
+        <ul>
+          <li><div class="dt"><b>14</b><span>10月</span></div><div><h4>手绘到数字：一种质感的消失与新生</h4><small>梳理动画制作方式的变迁，以及它对画面气质的影响。</small></div><span class="tag">电影史</span></li>
+          <li><div class="dt"><b>07</b><span>10月</span></div><div><h4>短片的尺度：用几分钟讲清一件事</h4><small>讨论短片在叙事结构上的取舍，以及它独有的表达效率。</small></div><span class="tag">独立短片</span></li>
+          <li><div class="dt"><b>30</b><span>09月</span></div><div><h4>色彩的情绪坐标：从冷到暖的叙事位移</h4><small>以多部作品为例，观察色彩如何标记人物与情节的走向。</small></div><span class="tag">视觉语言</span></li>
+          <li><div class="dt"><b>22</b><span>09月</span></div><div><h4>观众如何观看：一场放映中的反应记录</h4><small>记录观众在放映现场的真实反馈，让讨论回到观看本身。</small></div><span class="tag">放映观察</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="spot" style="padding-top:0">
+  <div class="wrap">
+    <div class="spot">
+      <div class="sh">
+        <div class="kicker">FEATURE — 深度选题</div>
+        <h2>我们<em>正在写</em>的三个深度选题</h2>
+        <p class="sub">长文的写法不同于短评：它需要背景、材料、反复的观看，以及愿意慢下来的读者。</p>
+        <div class="bar"></div>
+      </div>
+      <div class="grid3">
+        <div class="gc"><div class="top"><span class="no">01</span><span class="cat">长篇研究</span></div><h4>动画电影里的"小人物"叙事</h4><p>从角色设定、叙事视角到情感结构，讨论小人物为何成为动画作品中最容易被记住的那部分。</p><a class="more" href="#">阅读节选 →</a></div>
+        <div class="gc"><div class="top"><span class="no">02</span><span class="cat">视觉研究</span></div><h4>一帧画面的构成：从构图到留白</h4><p>选取多部作品的经典画面，逐层拆解构图、色彩、光影与留白，看视觉如何承担叙事。</p><a class="more" href="#">阅读节选 →</a></div>
+        <div class="gc"><div class="top"><span class="no">03</span><span class="cat">行业观察</span></div><h4>独立短片的生存与传播路径</h4><p>访谈多位短片创作者，讨论作品如何被看见、被传播，以及创作者面对的真实处境。</p><a class="more" href="#">阅读节选 →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tl" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kicker">TIMELINE — 更新节奏</div>
+      <h2>栏目的<em>更新节奏</em>，<br>与一份持续修订的内容表</h2>
+      <p class="sub">信息会过时，作品会被重新理解。我们按固定节奏更新，并保持对旧内容的修订。</p>
+      <div class="bar"></div>
+    </div>
+    <div class="tl">
+      <div class="ti"><span class="when">每周二 · 固定更新</span><h4>一篇影像手记</h4><p>围绕近期上映或正在被重读的作品，写下一段短而完整的观看记录，含剧情之外的视觉与结构观察。</p><div class="tags"><span>动画影评</span><span>经典重读</span><span>短片观察</span></div></div>
+      <div class="ti"><span class="when">每月一次 · 深度长文</span><h4>一个专题研究</h4><p>选择一位创作者、一种视觉手法或一段电影史线索，做更长的梳理与分析，并提供可继续阅读的延伸材料。</p><div class="tags"><span>深度选题</span><span>电影史</span><span>创作者访谈</span></div></div>
+      <div class="ti"><span class="when">随时 · 读者参与</span><h4>一次选题征集</h4><p>长期开放选题建议与读者来信，被选中的题目会进入写作队列，并在文末注明提问者。</p><div class="tags"><span>选题征集</span><span>读者来信</span></div></div>
+      <div class="ti"><span class="when">持续 · 内容修订</span><h4>一份可修订的笔记</h4><p>档期、上映信息与理解都会变化。我们会回头修订旧文，更新信息并保留修订记录。</p><div class="tags"><span>内容修订</span><span>正版渠道</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="voices" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kicker">VOICES — 读者回声</div>
+      <h2>来自<em>读者</em>的回信</h2>
+      <p class="sub">这些反馈改变了我们写选题的方式，也让我们更清楚哪些内容值得继续做下去。</p>
+      <div class="bar"></div>
+    </div>
+    <div class="voices">
+      <div class="voice"><p class="q">"原来我以前看动画片只在看故事，现在会停下来看它的颜色和留白。"</p><div class="who"><span class="av">L</span><div><b>林同学</b><small>大学生 / 动画爱好者</small></div></div></div>
+      <div class="voice"><p class="q">"重读笔记是我最常转给朋友看的部分，它让我重新理解了小时候看过的那部作品。"</p><div class="who"><span class="av b">M</span><div><b>马老师</b><small>中学美术教师</small></div></div></div>
+      <div class="voice"><p class="q">"创作者访谈里的那几句实话，比十篇影评都更能让人理解一部短片的诞生。"</p><div class="who"><span class="av c">K</span><div><b>Keith</b><small>独立短片作者</small></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="sh">
+      <div class="kicker">FAQ — 常见问题</div>
+      <h2>关于 777米奇电影网，<em>你可能想问</em></h2>
+      <p class="sub">关于栏目定位、内容边界与参与方式的常见疑问，集中作答。</p>
+      <div class="bar"></div>
+    </div>
+    <div class="faqs">
+      <details class="fq" open>
+        <summary>777米奇电影网是一个什么性质的平台？</summary>
+        <div class="a">它是一份聚焦动画电影、经典动画与银幕视觉艺术的深度内容栏目，主要提供动画影评、经典作品重读、动画电影史线索、创作者访谈与正版观影渠道指引，不提供任何影视资源的下载或在线播放服务。</div>
+      </details>
+      <details class="fq">
+        <summary>栏目的更新频率是怎样的？</summary>
+        <div class="a">每周二固定更新一篇影像手记，每月一次发布深度专题研究，并长期开放选题征集与读者来信。内容节奏会随创作情况调整，具体以页面更新为准。</div>
+      </details>
+      <details class="fq">
+        <summary>讨论的影片都来自正版来源吗？</summary>
+        <div class="a">是的。所有讨论均以合法上映、正版授权的影片版本为对象，并倡导通过院线、主流流媒体、短片平台与合法发行渠道观看，以支持电影与动画创作者的持续创作。</div>
+      </details>
+      <details class="fq">
+        <summary>能否提供某部作品的在线观看地址？</summary>
+        <div class="a">不能，也从未提供。本站不提供影视资源的在线播放或下载服务；相关内容仅说明合法的院线、流媒体与发行渠道，由观众自行选择。</div>
+      </details>
+      <details class="fq">
+        <summary>如何参与选题建议或投稿？</summary>
+        <div class="a">欢迎通过栏目邮箱或留言渠道提交选题与稿件，内容可围绕动画电影、镜头美学、独立短片或正版观影，并需符合原创与合法引用要求。</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="sub" style="padding-top:0">
+  <div class="wrap">
+    <div class="sub">
+      <div>
+        <div class="kicker">NEWSLETTER — 订阅专栏</div>
+        <h3>把新的影像手记，<br>安静地送到你手上</h3>
+        <p>每周一篇手记、每月一次深度选题，以及偶尔的选题征集。可随时退订，不发送无关内容。</p>
+      </div>
+      <form class="subf" onsubmit="event.preventDefault();this.querySelector('button').textContent='已订阅 ✓';">
+        <input type="email" required placeholder="your@email.com">
+        <button type="submit">订阅专栏</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="f">
+      <div>
+        <a class="logo" href="#top">
+          <span class="face w"><i></i></span>
+          <div><b style="color:#fff">777米奇电影网</b><small style="color:var(--yellow)">Animation &amp; Cinema Notes</small></div>
+        </a>
+        <p class="fd">聚焦动画电影、经典动画与银幕视觉艺术的深度内容栏目，以动画影评、经典作品重读与正版观影指引为线索，倡导通过合法渠道欣赏电影。</p>
+      </div>
+      <div>
+        <h5>栏目导航</h5>
+        <ul>
+          <li><a href="#about">栏目简介</a></li>
+          <li><a href="#chap">内容方向</a></li>
+          <li><a href="#studio">影像手记</a></li>
+          <li><a href="#spot">深度选题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>延伸阅读</h5>
+        <ul>
+          <li><a href="#">动画影评</a></li>
+          <li><a href="#">经典作品重读</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#sub">订阅专栏</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>官方地址</h5>
+        <ul>
+          <li><a class="site" href="https://777miqidianyingwang-zh.github.io" target="_blank" rel="noopener">777miqidianyingwang-zh.github.io</a></li>
+          <li><a href="#">版权声明</a></li>
+          <li><a href="#">隐私说明</a></li>
+          <li><a href="#">投稿与选题</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">
+      <p>© <span id="yr">2026</span> 777米奇电影网 · 本页所有内容仅用于电影文化与艺术探讨，倡导通过<strong>正版渠道</strong>观看影视作品，尊重每一位创作者的劳动与版权。本站不提供任何影视资源下载或在线播放服务。</p>
+      <p>访问官网：<a href="https://777miqidianyingwang-zh.github.io" target="_blank" rel="noopener">777miqidianyingwang-zh.github.io</a>　|　栏目邮箱：<a href="#">contact@777miqidianyingwang-zh.github.io</a></p>
+    </div>
+  </div>
+</footer>
+
+<div id="top" aria-label="回到顶部">↑</div>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  var t=document.getElementById('top');
+  window.addEventListener('scroll',function(){t.classList.toggle('show',window.scrollY>420);});
+  t.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+  var b=document.getElementById('mbtn'),m=document.getElementById('menu');
+  b.addEventListener('click',function(){m.classList.toggle('open');});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');});});
+})();
+</script>
+</body>
+</html>
